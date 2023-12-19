@@ -19,7 +19,7 @@ const App = () => {
   axios.defaults.withCredentials = true;
   useEffect(() => {
     axios
-      .get("https://savecertificate1.vercel.app/")
+      .get("https://savecertificate1.vercel.app")
       .then((user) => {
         setUser(user.data);
       },[])
