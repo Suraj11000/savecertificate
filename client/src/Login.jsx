@@ -9,7 +9,7 @@ const Login = () => {
 
     const handleSubmit = (e) => {
       e.preventDefault()
-      axios.post('http://localhost:3001/login', {email, password})
+      axios.post('https://savecertificate-front.vercel.app/login', {email, password})
       .then(res => {
         if(res.data === "Success"){
           window.location.href ="/"
