@@ -48,7 +48,7 @@ const Home = () => {
           >
             <div className="flex-wrap xl:flex lg:flex justify-center gap-10 sm:flex-nowrap">
               <img
-                src={`http://localhost:3001/Images/${post.file}`}
+                src={`https://savecertificate-front.vercel.app/Images/${post.file}`}
                 alt=""
                 className=" xl:w-[60rem] lg:w-[45rem] md:w-[60rem] sm:w-[60rem] w-[45rem] xl:h-[32rem] lg:h-[31rem] md:h-[30rem] sm:h-[26rem] h-[20rem] overflow-scroll"
               />
