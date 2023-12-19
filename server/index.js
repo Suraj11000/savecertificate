@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const cookieParser = require("cookie-parser");
 const multer = require("multer");
 const path = require("path");
-const UserModel = require("./models/UserModel");
+const UserModel = require("./models/userModel");
 const postModel = require("./models/postModel");
 const contactModel = require("./models/contactModel");
 
