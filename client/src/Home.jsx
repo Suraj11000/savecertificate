@@ -8,7 +8,7 @@ const Home = () => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:3001/getposts")
+      .get("https://savecertificate-front.vercel.app/getposts")
       .then((posts) => {
         setPosts(posts.data);
       })
