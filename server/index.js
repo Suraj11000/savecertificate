@@ -22,7 +22,7 @@ app.use(
 app.use(cookieParser());
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/blog");
+mongoose.connect("mongodb+srv://suraj:ql10F03h7gsD9Ier@cluster0.sc5vjl7.mongodb.net/?retryWrites=true&w=majority");
 
 const verifyUser = (req, res, next) => {
   const token = req.cookies.token;
