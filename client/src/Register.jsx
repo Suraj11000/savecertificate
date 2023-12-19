@@ -12,7 +12,7 @@ const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("https://savecertificate-front.vercel.app/register", { userName, email, password })
+      .post("https://savecertificate1.vercel.app/register", { userName, email, password })
       .then((res) => Navigate('/login'))
       .catch((err) => console.log(err));
   };
